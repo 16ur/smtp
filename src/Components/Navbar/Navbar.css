@@ -1,0 +1,63 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 5%;
+}
+
+.logoBig {
+  width: 10%;
+  height: auto;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 100%;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+  font-size: 22px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+ul li:hover {
+  color: #ffffff;
+  background-color: black;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin: 0 15px;
+}
+
+.mainElements {
+  background-color: #edefec;
+  border-radius: 10px;
+  height: 60px;
+}
+
+.toggleNightIcon,
+.searchBlackIcon {
+  width: 40px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
